@@ -24,9 +24,8 @@ a{
 }
 
 a:hover {
-    color: rgb(186, 7, 7);
-    backdrop-filter: blur(10px);
-    animation-duration: inherit;
+    color: rgb(0, 0, 0) !important;
+    
 }
 
 ul {
@@ -67,11 +66,15 @@ div a {
     margin: 0;  
     box-shadow: 10px 7px 10px rgb(203, 203, 203);  
     text-align: center;
+    
+    align-items: center !important;
 }
 
 .cardMaster {    
     gap: 50px;
     margin: 35px 0;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 
 .fotoMate {
@@ -125,5 +128,11 @@ div a {
 
 .heading {
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
+}
+
+.fotoHeading {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
 }

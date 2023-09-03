@@ -89,12 +89,12 @@ div a {
     background-color: rgb(182, 8, 8);
     color: #fafafa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;   
+    font-size: 18px;
 }
 
 .btnMio:hover{
     background-color: rgb(81, 9, 9);
-    color: #fafafa;
+    color: #bbbaba !important;
 }
 /*BOTON DE WP*/
 

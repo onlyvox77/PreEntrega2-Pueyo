@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: black;
+    /*position: sticky;*/
+    top: 0;
+}
+
+a{
+    color: #fafafa;
+    font-size: 25px;
+    text-decoration: none;    
+}
+
+a:hover {
+    color: rgb(186, 7, 7);
+    backdrop-filter: blur(10px);
+    animation-duration: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.navLink li {
+    display: inline-block;
+    justify-content: flex-end;
+
+    padding: 0px 20px;
+}
+
+.logo {
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+}
+
+div a {
+    margin: 10px;
+    padding: 10px;
+    color: #fafafa !important;
+    font-size: 20px !important;
+}
+
+/*CAROUSEL*/
+
+.mateCar {
+    width: 100%;
+    height: 600px;
+    object-fit: unset;
+}
+
+/*CARDS*/
+
+.cardMate {
+    margin: 0;  
+    box-shadow: 10px 7px 10px rgb(203, 203, 203);  
+    text-align: center;
+}
+
+.cardMaster {    
+    gap: 50px;
+    margin: 35px 0;
+}
+
+.fotoMate {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/******BOTON CARDS********/
+
+.btnMio{
+    background-color: rgb(182, 8, 8);
+    color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;   
+}
+
+.btnMio:hover{
+    background-color: rgb(81, 9, 9);
+    color: #fafafa;
+}
+/*BOTON DE WP*/
+
+.logoWp {
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.logoWp:hover{
+    filter: brightness(95%);
+    animation: inherit;
+}
+
+.prodMate {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.prod {
+    position: relative;
+}
+
+/*HEADING*/
+
+.heading {
+    display: flex;
+    justify-content: center;
+}

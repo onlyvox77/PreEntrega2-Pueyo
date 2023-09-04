@@ -136,3 +136,16 @@ div a {
     justify-content: center !important;
     align-items: center !important;
 }
+
+.btnConsul {
+    
+    width: 80%;
+    margin: 10px;
+    padding: 10px;    
+}
+
+.textForm {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}

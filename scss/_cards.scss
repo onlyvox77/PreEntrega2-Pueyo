@@ -1,0 +1,21 @@
+/*CARDS*/
+
+.cardMate {
+    margin: 0;
+    box-shadow: 10px 7px 10px rgb(203, 203, 203);
+    text-align: center;
+    align-items: center !important;
+  }
+  
+  .cardMaster {
+    gap: 50px;
+    margin: 35px 0;
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+  
+  .fotoMate {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }

@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: $black;
+    top: 0;
+  }
+  
+  a {
+    color: $white;
+    font-size: 25px;
+    text-decoration: none;
+  
+    &:hover {
+      color: $black !important;
+    }
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .navLink li {
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 0px 20px;
+  }
+  
+  .logo {
+    border-radius: 20px;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  div a {
+    margin: 10px;
+    padding: 10px;
+    color: $white !important;
+    font-size: 20px !important;
+  }
+  

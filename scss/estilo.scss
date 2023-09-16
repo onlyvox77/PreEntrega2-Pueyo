@@ -1,0 +1,21 @@
+@import "_vars";
+@import "_mixins";
+@import "_fonts";
+@import "_header";
+@import "_cards";
+@import "_boton";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//CAROUSEL
+
+.mateCar {
+    width: 100%;
+    height: 600px;
+    object-fit: unset;
+}
+

@@ -19,3 +19,28 @@
     object-fit: unset;
 }
 
+/*HEADING*/
+
+.heading {
+    display: flex;
+    justify-content: center !important;
+  }
+  
+  .fotoHeading {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .btnConsul {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .textForm {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  

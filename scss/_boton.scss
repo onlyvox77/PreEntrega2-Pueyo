@@ -28,9 +28,8 @@
   }
   
   .prodMate {
-    display: grid;
-    position: absolute;
-    justify-content: center;
+    @include alineacion (grid, center);    
+    position: absolute;    
     align-items: center;
     width: 100%;
   }
@@ -47,7 +46,6 @@
 }
 
 .textForm {
+    @include alineacion (flex, center);
     font-size: 25px;
-    display: flex;
-    justify-content: center;
 }

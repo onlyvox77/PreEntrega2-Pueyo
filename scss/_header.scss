@@ -1,6 +1,5 @@
 header {
-    display: flex;
-    justify-content: space-between;
+    @include alineacion (flex, space-between);
     align-items: center;
     padding: 30px 10%;
     background-color: $black;
@@ -22,8 +21,7 @@ header {
   }
   
   .navLink li {
-    display: inline-block;
-    justify-content: flex-end;
+    @include alineacion (inline-block, flex-end);
     padding: 0px 20px;
   }
   

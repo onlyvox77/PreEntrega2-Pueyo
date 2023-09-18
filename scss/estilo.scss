@@ -3,6 +3,7 @@
 @import "_fonts";
 @import "_header";
 @import "_cards";
+
 @import "_boton";
 
 
@@ -22,13 +23,11 @@
 /*HEADING*/
 
 .heading {
-    display: flex;
-    justify-content: center !important;
+    @include anclas;
   }
   
   .fotoHeading {
-    display: flex;
-    justify-content: center !important;
+    @include anclas;
     align-items: center !important;
   }
   
